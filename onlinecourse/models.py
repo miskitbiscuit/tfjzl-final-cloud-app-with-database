@@ -118,8 +118,4 @@ class Choice(models.Model):
 
 class Submission(models.Model):
     enrollment = models.ForeignKey(Enrollment, on_delete=models.CASCADE)
-<<<<<<< HEAD
     choices = models.ManyToManyField(Choice)
-=======
-    choices = models.ManyToManyField(Choice)
->>>>>>> ecb91e6e0be1036df3061aef1b2785243f8e24ce
